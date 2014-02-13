@@ -1,5 +1,7 @@
+heat_template_version: 2013-05-23
+
 description: |
-  HEAT template for installing Wordpress on Windows Server
+  HEAT template for installing Wordpress on Windows Server - test
 
 parameters:
 
@@ -93,6 +95,3 @@ outputs:
         params:
           "%ip%": { get_attr: [ rs_windows_server, accessIPv4 ] }
     description: URL for Wordpress site
-
-
-

@@ -1,7 +1,7 @@
 heat_template_version: 2013-05-23
 
 description: |
-  HEAT template for installing Wordpress on Windows Server - test
+  HEAT template for installing Wordpress on Windows Server
 
 parameters:
 

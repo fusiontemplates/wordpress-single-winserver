@@ -95,3 +95,4 @@ outputs:
         params:
           "%ip%": { get_attr: [ rs_windows_server, accessIPv4 ] }
     description: URL for Wordpress site
+
